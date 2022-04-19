@@ -121,6 +121,8 @@ fetch(`https://raw.githubusercontent.com/gomesTH/apicardapio/fb120a5a0beba7bca9f
      divToAppend.appendChild(divPai)
 
      divPai.classList.add("burgers");
+     
+     
 }
 
 function alteraValor(spanId) {

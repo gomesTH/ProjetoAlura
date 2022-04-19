@@ -1,0 +1,203 @@
+
+body {
+    width: 100%;
+    background: url("background-footer.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+header {
+    background: url("background-nav.png");
+    padding: 8px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 65%;
+    margin: 0.1em auto;
+  
+}
+
+.logo-home {
+    opacity: 1;
+}
+
+.logo-home:hover {
+    opacity: 0.6;
+    transition: 400ms;
+}
+
+
+nav {
+    position: absolute;
+    top: 65px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ff8400;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #b6b6b6;
+    text-decoration: underline;
+}
+
+.caixa img {
+    width: 15%;
+}
+
+.caixa li:hover {
+    border-color: #ff8400;
+}
+
+main {
+    width: 100%;
+} 
+
+.itens-main {
+    width: 100%;
+    color: white;
+}   
+
+form {
+   margin: 10% 10%;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+.itens-main {
+    width: 45%;
+    margin: 0 23.3em ;
+    color: white;
+}   
+
+
+.enviar {
+    width: 23.3em;
+    padding: 0.7em;
+    background: #ff8400;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s background;
+    cursor: pointer;
+    
+}
+
+.enviar:hover {
+    background: #7cf55e;
+}
+
+
+.copyright a, p {
+    color: white;
+    margin: 0 16.9em;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    body{
+        background: url("background-footer.pn");
+        width: 100%;
+        background-color: rgb(17, 17, 17);
+        background-size: 100%;
+        
+    }
+
+    .caixa {
+        width: 100%;
+        padding: 1em 0;
+        margin: 0 auto;
+    }
+    .caixa img {
+        width: 30%;
+        position: relative;
+        margin: 0 7em;
+    }
+
+    header{
+        background: url("background-nav.png");
+        padding: 8px 0;
+
+    }
+
+    .logo {
+        text-align: center;
+    }
+    nav {
+        top: 8em;
+    }
+    .navegacao-home {
+        margin: 0 7%;
+    }
+
+    .itens-main {
+        width: 100%;
+        margin: 0 0.2em;
+        color: white;
+    }
+    .enviar {
+        width: 100%;
+        padding: 4% 65% 4% 45%;
+        background: #ff8400;
+        color: white;
+        font-weight: bold;
+        font-size: 21px;
+        border: none;
+        border-radius: 8px;
+        transition: 0.3s background;
+        cursor: pointer;
+        
+    }
+    .enviar:hover {
+        background: #7cf55e;
+    }
+
+    .formulario {
+        width: 70%;
+        margin: 12% 11%;
+        
+    }
+    .name {
+        padding: 0.5em 0;
+    }
+
+    .end {
+        padding: 0.5em 0; 
+    }
+
+    .copyright a, p {
+        color: white;
+        margin: 1em 10em;
+    }
+    
+}

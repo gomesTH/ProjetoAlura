@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cardápio</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="cardapio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="api.js"></script>
+    </head>
+    <body>
+        <header>
+                <div class="caixa">
+                    <h1><a href="index.html"><img src="logo-gomes.png" alt="logo" class="logo-burgers"></a></h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="cardapio.html">Cardápio</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+        <main>
+            <div id="xtudo" class="burgers"></div>
+
+            <ul class="burgers">
+                <li class="items">
+                    <h2 class="title">Olaf</h2>
+                    <img class="imagem" src="burger-red.png" alt="burger red">
+                    <p class="indredientes">Páo de brioche, Queijo prato, Anel de cebola e bacon</p>
+                    <p class="preco">18,50</p>
+
+                    <div class="quantidade">
+                        <button onclick="menos()">-</button>
+                            <p class="qnt" id="1"></p>
+                        <button onclick="mais()">+</button>
+                    </div>
+
+                    <a  href="https://api.whatsapp.com/send?phone=5521997475330&text=Ol%C3%A1%2C%20Boa%20noite%2C%20Quero%20um%20Olaf%20Caprichado%20!">
+                        <input class="botao" type="submit" value="pedir">
+                    </a>
+                </li>
+                <li class="items">
+                    <h2 class="title">Saladão</h2>
+                    <img class="imagem"  src="burger-red.png" alt="burger red">
+                    <p class="indredientes">Páo de brioche, Queijo prato ou cheddar, Salada</p>
+                    <p class="preco">22,50</p>
+                    
+                    <div class="quantidade">
+                        <button class="btnMenos" onclick="menos()">-</button>
+                            <p class="qnt" id="2"></p>
+                        <button class="btnMais" onclick="mais()">+</button>
+                    </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5521997475330&text=Ol%C3%A1%2C%20Boa%20noite%2C%20Quero%20um%20Salad%C3%A3o%20Caprichado%20!">
+                            <input class="botao" type="submit" value="pedir">
+                        </a>
+                    </div>
+                </li>
+                <li class="items">
+                    <h2 class="title">Gragas</h2>
+                    <img class="imagem"  src="burger-red.png" alt="burger red">
+                    <p class="indredientes">Páo Australiano, Cheddar, Caramelizada e bacon</p>
+                    <p class="preco">25,50</p>
+                   
+                    <div class="quantidade">
+                        <button >-</button>
+                            <p class="qnt" id="3"></p>
+                        <button >+</button>
+                    </div> 
+
+                        <a href="https://api.whatsapp.com/send?phone=5521997475330&text=Ol%C3%A1%2C%20Boa%20noite%2C%20Quero%20um%20Gragas%20Caprichado%20!">
+                            <input class="botao" type="submit" value="pedir">
+                        </a>
+                    </div>
+                </li>
+                <li class="items">
+                    <h2 class="title">Duplo</h2>
+                    <img class="imagem" src="burger-red.png" alt="burger red">
+                    <p class="indredientes">Páo de brioche, Cheddar, 2 Carnes e Farofa de ruffles</p>
+                    <p class="preco">26,50</p>
+                   
+                    <div class="quantidade">
+                        <button onclick="menos()">-</button>
+                            <p class="qnt" id="4"></p>
+                        <button onclick="mais()">+</button>
+                    </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5521997475330&text=Ol%C3%A1%2C%20Boa%20noite%2C%20Quero%20um%20Duplo%20Caprichado%20!">
+                            <input class="botao" type="submit" value="pedir">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="items">
+                    <h2 class="title">Onion</h2>
+                    <img class="imagem" src="burger-red.png" alt="burger red">
+                    <p class="indredientes">Páo Australiano, Cheddar, Anel de cebola e Farofa</p>
+                    <p class="preco">28,50</p>
+                 
+                    <div class="quantidade">
+                        <button onclick="menos()">-</button>
+                            <p  class="qnt" id="5"></p>
+                        <button onclick="mais()">+</button>
+                    </div>
+
+                        <a href="https://api.whatsapp.com/send?phone=5521997475330&text=Ol%C3%A1%2C%20Boa%20noite%2C%20Quero%20um%20Onion%20Caprichado%20!">
+                            <input class="botao" type="submit" value="pedir">
+                        </a>
+                        
+                    </div>
+                </li>
+            
+            </ul>
+        </main>
+        <script>
+        </script>
+    
+    </body>
+   
+</html>

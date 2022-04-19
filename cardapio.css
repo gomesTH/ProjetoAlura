@@ -1,0 +1,239 @@
+
+header {
+    background: url("background-nav2.png");
+    padding: 8px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 65%;
+    margin: 0.1em auto;
+  
+}
+
+.logo-burgers {
+    opacity: 1;
+}
+
+.logo-burgers:hover {
+    opacity: 0.6;
+    transition: 400ms;
+}
+
+
+nav {
+    position: absolute;
+    top: 65px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ff8400;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #b6b6b6;
+    text-decoration: underline;
+}
+
+.caixa img {
+    width: 15%;
+}
+
+.burgers {
+    width: 90%;
+    margin: 0.5em 5em;
+    padding: 0.5em 0;
+}
+
+.itens {
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+    vertical-align: top;
+    margin:  0 0.7%;
+    padding: 2em 0;
+    box-sizing: border-box;
+    border: 2px solid #0f0e0e;
+    border-radius: 5px; 
+}
+
+.itens:hover {
+    border-color: #ff8400;
+}
+
+
+.itens:hover h2 {
+    font-size: 1.8em;
+}
+
+
+.burgers h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.imagem {
+    width: 40%;
+}
+
+.indredientes {
+    font-size: 16px;
+    font-style: italic;
+    padding: 8px 0;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.quantidade {
+    padding: 0.5em 4.5em;
+    margin: 0 0.5em;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.qnt {
+    padding: 0.2 0.3em;
+}
+
+.botao {
+    width: 20%;
+    
+}
+
+@media screen and (max-width: 480px){
+    body{
+        width: 100%;
+        background-size: 100%;
+        
+    }
+
+header {
+    background: url("background-nav2.png");
+    padding: 2% 5%;
+    
+}
+.caixa {
+    width: 100%;
+    padding: 1em 0;
+    margin: 0 auto;
+}
+
+.caixa img {
+    width: 33%;
+    position: relative;
+    margin: 0 7.5em;
+}
+
+.logo-burgers {
+    width: 100%;
+    opacity: 1;
+
+}
+
+.logo-burgers:hover {
+    opacity: 0.6;
+    transition: 400ms;
+}
+
+nav {
+    width: 100%;
+    top: auto;
+    margin: -1.1% -10%; 
+}
+
+nav li {
+    display: inline;    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ff8400;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #b6b6b6;
+    text-decoration: underline;
+}
+
+.burgers {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.burgers li {
+    width: 70%;
+    margin: 2% 15%;
+    padding: 1em 0.4em;
+    box-sizing: border-box;
+    border: 2px solid #0f0e0e;
+    border-radius: 5px; 
+}
+
+.burgers li:hover {
+    border-color: #ff8400;
+}
+
+
+.burgers li:hover h2 {
+    font-size: 1.8em;
+}
+
+
+.burgers h2 {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.burgers img {
+    width: 55%;
+}
+
+.indredientes {
+    font-size: 16px;
+    font-style: italic;
+    padding: 8px 0;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.quantidade {
+    padding: 0.5em 4.5em;
+    margin: 0 12%;
+    font-size: 15px;
+    display: flex;
+}
+
+.qnt {
+    padding: 0 0.8em;
+}
+
+
+}
+
+

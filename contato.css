@@ -1,0 +1,227 @@
+body {
+    width: 100%;
+    
+    background: url("background-footer.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+header {
+    background: url("background-nav.png");
+    padding: 8px 0;
+}
+.caixa {
+    position: relative;
+    width: 65%;
+    margin: 0.1em auto;
+  
+}
+
+.logo-home {
+    opacity: 1;
+}
+
+.logo-home:hover {
+    opacity: 0.6;
+    transition: 400ms;
+}
+
+
+nav {
+    position: absolute;
+    top: 65px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ff8400;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #b6b6b6;
+    text-decoration: underline;
+}
+
+.caixa img {
+    width: 15%;
+}
+
+.caixa li:hover {
+    border-color: #ff8400;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.itens-main { 
+    width: 100%;
+    margin: 3%  0 auto;
+    color: white;
+    text-align: center;
+}   
+
+.wpp .email {
+    font-size: 28px;
+}
+
+.email {
+    margin-top: 25px;
+}
+#comentario {
+    text-align: center;
+    font-size: 13px;
+    margin: 0.3em;
+}
+
+.textarea { 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 3.4% 28%;
+    margin: 25p 3px;
+
+}
+
+.enviar {
+    width: 90%;
+    padding: 0.4em;
+    background: #ff8400;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s background;
+    cursor: pointer;
+    
+}
+
+.enviar:hover {
+    background: #7cf55e;
+}
+
+.copyright {
+    margin: 0 45%;
+    
+}
+
+.copyright a, p {
+    color: white;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    body{
+        background: url("background-footer.pn");
+        width: 100%;
+        background-color: rgb(17, 17, 17);
+        background-size: 100%;
+        
+    }
+
+    .caixa {
+        width: 100%;
+        padding: 1em 0;
+        margin: 0 auto;
+    }
+    .caixa img {
+        width: 30%;
+        position: relative;
+        margin: 0 12%;
+        
+    }
+    header{
+        background: url("background-nav.png");
+        padding: 8px 0;
+    }
+
+    .logo {
+        text-align: center;
+    }
+    nav {
+        top: 8em;
+    }
+    .navegacao-home {
+        margin: 2.5% 13%;
+    }
+
+    nav a {
+        text-transform: uppercase;
+        color: #ff8400;
+        font-weight: bold;
+        font-size: 1.2em;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        color: #b6b6b6;
+        text-decoration: underline;
+    }
+
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .itens-main { 
+        width: 100%;
+        margin: 10% 0;
+        color: white;
+        text-align: center;
+    }
+
+    .textarea { 
+        width: 100%;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding: 4% 0;
+        margin: 10% 0;
+    
+    }
+    
+ 
+    .enviar {
+        width: 88%;
+        padding: 0.3em;
+        background: #ff8400;
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        border: none;
+        border-radius: 8px;
+        transition: 0.3s background;
+        cursor: pointer;
+        
+    }
+    
+    .enviar:hover {
+        background: #7cf55e;
+    }
+    
+    .copyright {
+        margin: 0 38%;
+        
+    }
+    
+    .copyright a, p {
+        color: white;
+    }
+    
+  
+}

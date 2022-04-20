@@ -1,0 +1,57 @@
+{ 
+  "burgers":[
+    
+      {
+        "id": 0,
+        "name": "Olaf",
+        "ingredientes": "Bacon, Carne 180g, Pão De Brioche, Anel de Cebola",
+        "preco": "21,50",
+        "thumbnail":{
+          "extension":"png",
+          "path":"https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
+        }
+        
+      },
+      {
+        "id": 1,
+        "name": "Gragas",
+        "ingredientes": "Bacon, Carne 180g, Pão De Brioche, Anel de Cebola",
+        "preco": "21,50",
+        "thumbnail":{
+          "extension":"png",
+          "path":"https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Saladão",
+        "ingredientes": "Bacon, Carne 180g, Pão De Brioche, Anel de Cebola",
+        "preco": "20,50",
+        "thumbnail":{
+          "extension":"png",
+          "path":"https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
+        }
+      },
+
+      {
+        "id": 3,
+        "name": "Onion",
+        "ingredientes": "Bacon, Carne 180g, Pão De Brioche, Anel de Cebola",
+        "preco": "28,50",
+        "thumbnail":{
+          "extension":"png",
+          "path":"https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Duplo",
+        "ingredientes": "Bacon, Carne 180g, Pão De Brioche, Anel de Cebola",
+        "preco": "26,50",
+        "thumbnail":{
+          "extension":"png",
+          "path":"https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96712.png"
+        }
+      }  
+  ]
+}

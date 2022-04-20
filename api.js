@@ -1,5 +1,5 @@
 
-fetch(`https://raw.githubusercontent.com/gomesTH/apicardapio/fb120a5a0beba7bca9f704dcdc9dc7333cdaac20/data.json`)
+fetch(`https://raw.githubusercontent.com/gomesTH/ProjetoAlura/f41fc1cb866676a091fb5c267d15515ff0910e2f/data.json`)
  .then((response) => {
      return response.json();
  }).then((jsonParsed) => {
@@ -10,6 +10,7 @@ fetch(`https://raw.githubusercontent.com/gomesTH/apicardapio/fb120a5a0beba7bca9f
          const srcImage = element.thumbnail.path
          const ingreD = element.ingredientes
          const preco = element.preco;
+         
         
          createDivBurger(srcImage, nameBurger, ingreD, preco, divBurger, index);
         });
@@ -26,6 +27,7 @@ fetch(`https://raw.githubusercontent.com/gomesTH/apicardapio/fb120a5a0beba7bca9f
      const divFilho = document.createElement('div')
      //css
          divPai.className = 'burgers';
+         
          divFilho.className = 'items';
 
         // dados de produto
@@ -98,6 +100,17 @@ fetch(`https://raw.githubusercontent.com/gomesTH/apicardapio/fb120a5a0beba7bca9f
      
      textIngre.textContent = ingreD
      textPreco.textContent = preco
+
+      btnEnviar.innerHTML = 'enviar'
+      btnEnviar.onclick = () => {
+       {
+         
+         quantidade = document.getElementById('spanValor-0');
+         titulo = document.getElementById('#title');
+         preco = document.getElementById('spanValor-0');
+         console.log(quantidade.innerHTML);
+        }
+     } 
      
 
      // adicionando elementos
